@@ -1,7 +1,6 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Memegenerator from "./components/memegenerator";
+import Memegenerator from "./components/Memegenerator";
 import Header from "./components/header";
 
 function App() {
