@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.banner-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 214px;
+  height: 142px;
+  overflow: hidden;
+  opacity: .83;
+  pointer-events: none;
+  user-select: none;
+}
+
+.banner {
+  position: relative;
+  right: -54px;
+  top: 20px;
+  transform: rotate(45deg);
+  text-align: center;
+  line-height: 25px;
+  background-color: #E6B705;
+  border: 2px solid black;
+  pointer-events: all;
+  overflow: hidden;
+}
+
+.banner a {
+  display: block;
+  color: #111111;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
