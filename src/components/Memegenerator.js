@@ -46,7 +46,7 @@ class Memegenerator extends React.Component {
 
   render() {
     return (
-      <div>
+      <div class="container">
         <Form
           data={this.state}
           handleChange={this.handleChange}

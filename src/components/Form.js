@@ -6,6 +6,7 @@ function Form(props) {
   const handleClick = props.handleClick;
   return (
     <form className="meme-form">
+      <button onClick={handleClick}>New Meme</button>
       <input
         type="text"
         name="topText"
@@ -20,7 +21,6 @@ function Form(props) {
         value={data.bottomText}
         onChange={handleChange}
       ></input>
-      <button onClick={handleClick}>Gen</button>
     </form>
   );
 }

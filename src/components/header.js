@@ -4,8 +4,10 @@ import ImageHeader from "./ImageHeader.png";
 function Header() {
   return (
     <header>
-      <img alt="troll face" src={ImageHeader} />
-      <p>Meme Generator</p>
+      <div class="header-container">
+        <img alt="troll face" src={ImageHeader} />
+        <p>Meme Generator</p>
+      </div>
     </header>
   );
 }
