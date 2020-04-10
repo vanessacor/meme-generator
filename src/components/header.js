@@ -4,7 +4,7 @@ import ImageHeader from "./ImageHeader.png";
 function Header() {
   return (
     <header>
-      <div class="header-container">
+      <div className="header-container">
         <img alt="troll face" src={ImageHeader} />
         <p>Meme Generator</p>
       </div>

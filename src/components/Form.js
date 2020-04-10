@@ -6,7 +6,9 @@ function Form(props) {
   const handleClick = props.handleClick;
   return (
     <form className="meme-form">
-      <button onClick={handleClick}>New Meme</button>
+      <button onClick={handleClick}>
+        <i className="icon-arrows-cw"></i>
+      </button>
       <input
         type="text"
         name="topText"
